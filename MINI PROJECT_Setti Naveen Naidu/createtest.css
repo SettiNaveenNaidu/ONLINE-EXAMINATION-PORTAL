@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+html{
+     background-image: url(SKY%20BLUE.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    border: 4px solid #1e5162;
+    border-radius:10px;
+    width: 800px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
+}
+.create h2{
+    background-color: #1e5162;
+    width: 100%;
+    height: 7vh;
+    padding-top: 18px;
+    text-align: center;
+    font-size: 35px;
+    color:white;
+}
+.create{
+    align-content: center;
+    font-size: 16px;
+    
+}
+.create #subject,#topic,#duration,#password{
+    padding: 8px 290px;
+    border-radius: 5px;
+    margin-top: 12px;
+    margin-bottom: 13px;
+}
+.form{
+    margin-left: 25px;
+    margin-top: 22px;
+}
+.create #startdate,#enddate{
+    padding: 4px 90px;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.create #starttime,#endtime{
+    padding: 4px 125px;
+    border-radius: 5px;
+    margin-top: 12px;
+
+}
+.date1{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.date2{
+    margin-left:425px;
+    margin-top: -64px;
+    
+}
+.time1{
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.time2{
+    margin-left:425px;
+    margin-top: -62px;
+}
+.create #file,#checkbox,#submit,#download{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+.download a{
+    text-decoration: none;
+    background-color:#1e5162;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+#submit{
+    padding: 4px 12px;
+    border-radius: 3px;
+    background-color: #1e5162;
+    color: white;
+}
+#endtime{
+    margin-bottom: 15px;
+
+}
+
+

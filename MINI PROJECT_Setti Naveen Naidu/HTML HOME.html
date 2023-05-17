@@ -1,0 +1,149 @@
+<html>
+<head>
+    <title>
+        Online examination Portal
+    </title>
+    <link rel="stylesheet" href="HOME.css">
+    <script src="https://kit.fontawesome.com/8a959afd55.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    
+    <div class='Header'>
+        <nav> <div class="logo"><img src="logomain.png" alt="logo"></div>
+            <ul>
+            <li><a href="#">Home</a></li>
+                <li><a href="#about">AboutUs</a></li>
+                <li><a href="#contact">ContactUs</a></li>
+            </ul>
+        </nav>    
+    </div>
+    <div class='main'>
+        <h1>
+        Online
+        </h1>
+        <h1>Examination Portal</h1><br>
+        <div class="Specify"> Easy To Use | Secure | Accurate</div>
+        <div class="dynamictxt"><h4>Mini Project</h4></div>
+    </div>
+    <div class="container">
+           <div class='card'>
+               <div class="box">
+                 <div class="content"> 
+                     <h2>Student </h2>
+                    <img src="student%201.png">
+                     <button class="loginbtn" >LogIn/SignUp</button>
+                  </div>
+               </div>
+        </div>
+             <div class='card'>
+               <div class="box">
+                  <div class="content"> 
+                      <h2>Teacher </h2>
+                    <img src="Teacher%202.png">
+                      <button class="loginbtn" >LogIn/SignUp</button> 
+                 </div>
+                 </div>
+        </div>
+            <div class='card'>
+               <div class="box">
+                 <div class="content"> 
+                     <h2>Organisation</h2>
+                    <img src="organisation%201.png">
+                     <button class="loginbtn" >LogIn/SignUp</button>
+                 </div>
+               </div>
+                
+          </div>
+    </div>
+    <div class="footer">
+                    <div class="foot1" id="about"
+                        <h3>About Us</h3><br>
+        <p>S Naveen Naidu</p>
+        <p>P Gagan Kumar</p>
+        <p>G Tejesh</p></div>
+                    <div class="foot2">
+                        <h3>Social Media</h3><br>
+                     <ul>
+                         <li><i class="fab fa-linkedin"></i>&nbsp;&nbsp;<a href="#">Linked In</a></li>
+                         <li><i class="fab fa-instagram"></i>&nbsp;&nbsp;<a href="#">Instagram</a></li>
+                         <li><i class="fab fa-facebook-square"></i>&nbsp;&nbsp;<a href="#">Facebook</a></li>
+                    </ul>
+                    </div>
+                    <div class="foot3" id="contact">
+                        <h3>Contact Us</h3><br>
+                        <ul><li>
+                         <i class="fas fa-envelope-open-text"></i>
+                            <a href="#">&nbsp;&nbsp;examonline@gmail.com</a></li>
+                            <li><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;<a href="#">8978750891</a></li>
+                        </ul></div>
+                
+             </div>
+    <div class="modal" id="loginmodal">
+    <div class="center" id="loginform"  >
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Not a member? <a id="signup" href="#">Signup</a>
+        </div>
+      </form>
+    </div>
+    </div>
+    <div class="modal" id="registermodal">
+    <div class="center" id="registartionform"  >
+      <h1>SignUp</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Full Name</label>
+        </div>
+        <div class="txt_field">
+          <input type="email" required>
+          <span></span>
+          <label>EmailID</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div> 
+        <input type="submit" value="Register">
+      </form>
+    </div>
+    </div>
+    <script type="text/javascript">
+        var loginmodal=document.getElementById('loginmodal');
+        var signupbtn=document.getElementById('signup');
+        var registermodal=document.getElementById('registermodal');
+        var btns=document.getElementsByClassName('loginbtn');
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function (event) {
+                loginmodal.style.display="block";
+            })
+        }
+        signupbtn.addEventListener("click",function(){
+            loginmodal.style.display="none";
+            registermodal.style.display="block";
+        })
+        window.onclick=function(event){
+            if(event.target==loginmodal || event.target==registermodal){
+                loginmodal.style.display="none";
+                registermodal.style.display="none";
+            }
+        }
+    </script>
+
+
+    </body></html>

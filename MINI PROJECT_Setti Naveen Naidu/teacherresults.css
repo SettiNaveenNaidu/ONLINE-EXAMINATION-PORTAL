@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+     background-image: url(Skybluet.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-color:black;
+    height: 10%;
+    width: 100%;
+    color: white;
+}
+table tr th{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20;
+    padding: 10 0;
+}
+table tr td{
+    text-align: center;
+    color: black;
+    font-size: 20;
+    padding: 10 0; 
+}
+table{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    border: 2px solid 
+    
+}
+.some img{
+    border: 5px solid skyblue;
+    margin-left: 82%;
+    margin-top: -3%;
+    border-radius:50%;
+    width: 200px;
+    height:200px;
+}
+.header img{
+    padding: 10px 13px;
+}
+.name{
+     
+    margin-top: -6%;
+    font-size:20;
+    font-family: sans-serif;  
+    text-align-last: right;
+    margin-right: 20%;
+}
+.result{
+    text-decoration: none;
+    background-color: #2691d9;
+    color: white;
+    padding: 3 16;
+    box-shadow: 2px 4px #00334d;
+    border-radius: 8px;
+}

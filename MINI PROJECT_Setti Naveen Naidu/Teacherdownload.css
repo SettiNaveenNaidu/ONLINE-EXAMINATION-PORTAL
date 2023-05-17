@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header img{
+    padding: 10px 13px;
+}
+.header{
+    background-color:black;
+    height: 10%;
+    width: 100%;
+    color: white;
+}
+table tr th{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20;
+    padding: 10 0;
+}
+table tr td{
+    text-align: center;
+    color: black;
+    font-size: 20;
+    padding: 10 0; 
+}
+table{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+    border: 2px solid;
+    margin-bottom: 3%;
+}
+.download{
+    background-color: #2691d9;
+    text-decoration: none;
+    color:white;
+    padding: 9px 15px;
+    border-radius:4px; 
+    margin-left: 40%;
+}
